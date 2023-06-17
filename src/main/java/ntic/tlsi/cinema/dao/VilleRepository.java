@@ -7,6 +7,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RepositoryRestResource
-@CrossOrigin("*")
+@CrossOrigin("https://cinema-frontend-angualr.netlify.app")
 public interface VilleRepository extends JpaRepository<Ville,Long> {
 }

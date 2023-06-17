@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin("https://cinema-frontend-angualr.netlify.app")
 public class CinemaRestController {
     @Autowired
     private FilmRepository filmRepository ;
